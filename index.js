@@ -5,7 +5,7 @@ import session from 'express-session';
 import config from "./config.js";
 
 // Controllers/Parsers
-import { CasesController } from './controllers';
+import * as CasesController from './controllers/CaseController.js';
 import * as UserController from "./controllers/UserController.js";
 const app = express();
 
